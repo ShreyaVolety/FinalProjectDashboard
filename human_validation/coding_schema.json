@@ -1,0 +1,160 @@
+{
+  "RULES": {
+    "relevance": [
+      [
+        "Relevant",
+        "Investment-only",
+        "Keyword false positive",
+        "Historical-fictional",
+        "Other non-economic",
+        "Unclear"
+      ],
+      "Relevant = substantive economic conditions, household finances or economic policy; grade inflation/company-name accidents are Keyword false positive; stock picks without economic conditions are Investment-only."
+    ],
+    "geography": [
+      [
+        "US",
+        "US-linked international",
+        "Foreign",
+        "Unclear",
+        "Not applicable"
+      ],
+      "US economic subject; US-linked international when foreign events explicitly affect US conditions; outlet location and author nationality alone are insufficient."
+    ],
+    "genre": [
+      [
+        "Reporting",
+        "Analysis-explainer",
+        "Opinion",
+        "Advice",
+        "Personal experience",
+        "Promotional",
+        "Other",
+        "Unclear"
+      ],
+      "Classify observable presentation. Corporate promotion may be Promotional; reporting on a company is not inherently promotion."
+    ],
+    "economic_tone": [
+      [
+        "Positive",
+        "Negative",
+        "Neutral",
+        "Mixed",
+        "Unclear",
+        "Not applicable"
+      ],
+      "Direction of economic conditions described, including meaningful expectations; Mixed requires both favorable and unfavorable conditions. Negative facts are not emotion."
+    ],
+    "emotional_wording": [
+      [
+        "Present",
+        "Absent",
+        "Unclear",
+        "Not applicable"
+      ],
+      "Emotive/evaluative wording in author voice or headline; record attributed headline wording with its voice. No automatic emotion from negative facts."
+    ],
+    "emotional_quote": [
+      [
+        "Present",
+        "Absent",
+        "Unclear",
+        "Not applicable"
+      ],
+      "Emotional wording in attributed quotation, distinguished from author narration. Posts use the post author as author voice."
+    ],
+    "primary_topic": [
+      [
+        "Prices",
+        "Employment",
+        "Income",
+        "Growth",
+        "Housing",
+        "Debt-finances",
+        "Spending-sentiment",
+        "Multiple",
+        "Other",
+        "None",
+        "Not applicable"
+      ],
+      "Foregrounded substantive topic; Multiple requires equally prominent topics."
+    ],
+    "price_frame": [
+      [
+        "Price levels",
+        "Inflation rate",
+        "Both",
+        "Neither",
+        "Unclear",
+        "Not applicable"
+      ],
+      "Levels = expense or cumulative changes; rate = pace of change; Both needs evidence of both."
+    ],
+    "experience_frame": [
+      [
+        "National aggregates",
+        "Household-local experience",
+        "Both",
+        "Neither",
+        "Unclear",
+        "Not applicable"
+      ],
+      "National statistics versus household/local circumstances. Do not infer from outlet location."
+    ],
+    "time_frame": [
+      [
+        "Current-recent conditions",
+        "Future expectations",
+        "Both",
+        "Neither",
+        "Unclear",
+        "Not applicable"
+      ],
+      "Realized/current conditions versus forecasts and anticipated developments."
+    ],
+    "political_attribution": [
+      [
+        "Credit",
+        "Blame",
+        "Both",
+        "Neither",
+        "Unclear",
+        "Not applicable"
+      ],
+      "Explicit causal attribution of an economic outcome to political actors/institutions or policy; criticism/mention alone is Neither."
+    ],
+    "attribution_voice": [
+      [
+        "Author",
+        "Quoted source",
+        "Both",
+        "Not applicable",
+        "Unclear"
+      ],
+      "Whose attribution is expressed. If attribution is Neither or Not applicable, voice must be Not applicable and target empty."
+    ],
+    "checkable_official_claim": [
+      [
+        "Yes",
+        "No",
+        "Unclear"
+      ],
+      "Numerical assertion about an official economic/survey measure; prediction or private rate quote is not automatically an official claim. This is detection, NOT verification."
+    ]
+  },
+  "BINARY_RULES": {
+    "topic_prices": "Substantive inflation, price levels or consumer costs",
+    "topic_employment": "Substantive hiring, layoffs, unemployment, hours or labor markets",
+    "topic_income": "Substantive wages, income or purchasing power",
+    "topic_growth": "Substantive GDP, expansion, slowdown, recession or output productivity",
+    "topic_housing": "Substantive rents, home costs, affordability or supply",
+    "topic_debt_finances": "Substantive debt, borrowing, savings, rates or financial strain/security",
+    "topic_spending_sentiment": "Substantive spending, confidence or economic expectations",
+    "layoffs": "Layoffs/job cuts substantively discussed",
+    "hiring": "Hiring/job gains substantively discussed",
+    "rising_prices": "Rising prices/increasing costs substantively discussed, not merely word inflation",
+    "falling_inflation": "Slowing inflation/disinflation substantively discussed, not automatically falling prices",
+    "growth_expansion": "Economic expansion/real output growth substantively discussed",
+    "recession_risk": "Recession, contraction or recession risk substantively discussed"
+  }
+}

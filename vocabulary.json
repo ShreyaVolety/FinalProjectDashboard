@@ -1,0 +1,181 @@
+{
+  "source_rows": [
+    [
+      "CBS News",
+      "cbsnews.com",
+      "National-general",
+      "United States"
+    ],
+    [
+      "CNN",
+      "cnn.com",
+      "National-general",
+      "United States"
+    ],
+    [
+      "Fox News",
+      "foxnews.com",
+      "National-general",
+      "United States"
+    ],
+    [
+      "NPR",
+      "npr.org",
+      "National-general",
+      "United States"
+    ],
+    [
+      "Business Insider",
+      "businessinsider.com",
+      "National-business",
+      "United States"
+    ],
+    [
+      "CNBC",
+      "cnbc.com",
+      "National-business",
+      "United States"
+    ],
+    [
+      "Fortune",
+      "fortune.com",
+      "National-business",
+      "United States"
+    ],
+    [
+      "Yahoo Finance",
+      "finance.yahoo.com",
+      "National-business",
+      "United States"
+    ],
+    [
+      "ABC13 Houston",
+      "abc13.com",
+      "Local",
+      "Houston, Texas"
+    ],
+    [
+      "Houston Public Media",
+      "houstonpublicmedia.org",
+      "Local",
+      "Houston, Texas"
+    ],
+    [
+      "Chicago Tribune",
+      "chicagotribune.com",
+      "Local",
+      "Chicago, Illinois"
+    ],
+    [
+      "WBEZ",
+      "wbez.org",
+      "Local",
+      "Chicago, Illinois"
+    ],
+    [
+      "Los Angeles Times",
+      "latimes.com",
+      "Local",
+      "Los Angeles, California"
+    ],
+    [
+      "LAist",
+      "laist.com",
+      "Local",
+      "Los Angeles, California"
+    ],
+    [
+      "Gothamist",
+      "gothamist.com",
+      "Local",
+      "New York City, New York"
+    ],
+    [
+      "New York Post",
+      "nypost.com",
+      "Local",
+      "New York City, New York"
+    ]
+  ],
+  "SEARCH_TERMS": {
+    "prices": [
+      "inflation",
+      "deflation",
+      "disinflation",
+      "consumer prices",
+      "cost of living",
+      "grocery prices",
+      "food prices",
+      "gas prices",
+      "energy prices",
+      "price hikes",
+      "rising prices",
+      "falling prices"
+    ],
+    "employment": [
+      "unemployment",
+      "employment",
+      "layoff",
+      "layoffs",
+      "laid off",
+      "hiring",
+      "job cuts",
+      "job gains",
+      "job growth",
+      "jobs report",
+      "labor market",
+      "payrolls",
+      "job openings"
+    ],
+    "income": [
+      "wages",
+      "wage",
+      "salaries",
+      "household income",
+      "personal income",
+      "pay raise",
+      "pay raises",
+      "purchasing power",
+      "real income"
+    ],
+    "growth": [
+      "GDP",
+      "gross domestic product",
+      "recession",
+      "economic growth",
+      "economic slowdown",
+      "economy",
+      "economic outlook",
+      "productivity",
+      "soft landing",
+      "hard landing"
+    ],
+    "housing": [
+      "mortgage",
+      "mortgages",
+      "housing market",
+      "housing costs",
+      "housing affordability",
+      "home prices",
+      "rent",
+      "rents",
+      "renters",
+      "eviction",
+      "evictions"
+    ],
+    "household_finance": [
+      "consumer confidence",
+      "consumer sentiment",
+      "consumer spending",
+      "household spending",
+      "credit card debt",
+      "student loan",
+      "student loans",
+      "debt burden",
+      "borrowing costs",
+      "interest rates",
+      "Federal Reserve",
+      "Fed rates"
+    ]
+  }
+}

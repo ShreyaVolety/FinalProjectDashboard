@@ -1,0 +1,6 @@
+workspaces/
+.env
+.streamlit/secrets.toml
+*.pem
+*service_account*.json
+__pycache__/
